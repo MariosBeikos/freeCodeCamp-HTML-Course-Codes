@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="RegistrationForm!!!.css">
+</head>
+<body>
+<h1 id="title" >Title</h1>
+<p  id = description>Here is a description</p>
+<form id="survey-form">
+<fieldset> 
+  <label id="name-label" for ="name">First Name: <input id="name" required type="text" placeholder="Name" /></label>
+  <!--br is sus--> 
+  <br>
+  <label id = "email-label" for ="email">Email Address: <input id="email" required type="email" placeholder="MyEmail123@exmple.com" /></label>
+<br>
+<label id="number-label" for ="number">Some Number: <input id="number" required type="number" placeholder="1-9999" min=1 max=9999 /></label>
+</fieldset>
+<fieldset>
+<label>Select one: 
+<select id="dropdown" name="select">
+  <option value="">(select one)</option>
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+  <option value="null">Prefer not to say</option>
+</select>
+</label>
+<br>
+<label for="option1"><input id="option1" type="radio" value="1" name="option"/>Option 1</label>
+<br>
+<label for="option2"><input id="option2" type="radio" value="2" name="option"/>Option 2</label>
+<br>
+</fieldset>
+<fieldset>
+  <label><input  type="checkbox" value="checkbox1" />Check this box if you want</label>
+  <br>
+  <label><input required type="checkbox" value="checkbox2"/>This one however, you must check:</label>
+  <br>
+  <textarea id="textarea" name="textarea" placeholder="Write something..." rows=5 cols=30></textarea>
+</fieldset>
+<input type="submit" id="submit">
+</form>
+</body>
+</html>
+
